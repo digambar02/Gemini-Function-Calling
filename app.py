@@ -3,7 +3,6 @@ import requests
 import google.generativeai as genai
 import gradio as gr
 from google.api_core import retry
-from google.colab import userdata
 
 
 def body_part_list() -> list[str]:
@@ -46,7 +45,7 @@ def exercise(body_part: str) -> dict():
 
 def initialize_model():
     """Initialize the Gemini model with exercise functions"""
-    GOOGLE_API_KEY = userdata.get('GEMINI_API_KEY')
+    GOOGLE_API_KEY = "AIzaSyAkz6zFRdshUXizd0Tx0yz4OtWjeHTqkhQ"
     genai.configure(api_key=GOOGLE_API_KEY)
     
     # Define the tools (functions) available to the model
