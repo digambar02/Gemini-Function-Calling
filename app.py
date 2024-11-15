@@ -12,7 +12,7 @@ def body_part_list() -> list[str]:
     url = "https://exercisedb.p.rapidapi.com/exercises/bodyPartList"
     
     headers = {
-        "x-rapidapi-key": "b744405787msh79db78eb8e8899ep1306bfjsn46f9bccdd8d2",
+        "x-rapidapi-key": os.getenv(RAPIDAPI_KEY),
         "x-rapidapi-host": "exercisedb.p.rapidapi.com"
     }
     
@@ -29,7 +29,7 @@ def exercise(body_part: str) -> dict():
     querystring = {"limit":"10","offset":"0"}
     
     headers = {
-        "x-rapidapi-key": "b744405787msh79db78eb8e8899ep1306bfjsn46f9bccdd8d2",
+        "x-rapidapi-key": os.getenv(RAPIDAPI_KEY),
         "x-rapidapi-host": "exercisedb.p.rapidapi.com"
     }
     
