@@ -58,7 +58,7 @@ def initialize_model():
     If the body part is available in the list provided by the body_part_list function proceed, 
     otherwise respond by giving list of body parts you can assist with. 
     After getting expected body part, use exercise function and use body part as input to the function. 
-    Extract body part, muscle name, exercise name and exercise instructions. Present in readable format"""
+    Extract body part, muscle name, exercise name and exercise instructions. Present in readable format. Don't give general advice."""
     
     model = genai.GenerativeModel(
         "gemini-1.5-flash-latest",
