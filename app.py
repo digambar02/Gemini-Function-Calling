@@ -3,7 +3,10 @@ import requests
 import google.generativeai as genai
 import gradio as gr
 from google.api_core import retry
+from dotenv import load_dotenv
 
+# Load environment variables from .env file
+load_dotenv()
 
 def body_part_list() -> list[str]:
     """
