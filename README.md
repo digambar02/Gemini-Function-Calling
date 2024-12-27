@@ -1,6 +1,6 @@
 # 🏋️‍♂️ AI Fitness Trainer
 
-An AI chatbot that recommends exercises based on the body part you want to train. Powered by Google Gemini, Gradio, and RapidAPI.
+An AI chatbot that recommends exercises based on the body part you want to train. Powered by Google Gemini, Gradio, and RapidAPI, utilizing the function calling capabilities of the Gemini model.
 
 ---
 
