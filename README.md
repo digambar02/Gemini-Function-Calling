@@ -20,7 +20,7 @@ An AI chatbot that recommends exercises based on the body part you want to train
 1. Install Python 3.7+.
 2. Install dependencies:
    ```bash
-   pip install gradio google-generative-ai
+   pip install -r requirements.txt
    ```
 3. Set environment variables:
    - `RAPIDAPI_KEY`
@@ -32,7 +32,6 @@ An AI chatbot that recommends exercises based on the body part you want to train
 1. Clone the repo:
    ```bash
    git clone <repository-url>
-   cd <repository-folder>
    ```
 2. Launch the app:
    ```bash
