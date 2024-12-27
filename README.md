@@ -31,7 +31,7 @@ An AI chatbot that recommends exercises based on the body part you want to train
 ## How to Run
 1. Clone the repo:
    ```bash
-   git clone [<repository-url>](https://github.com/digambar02/Gemini-Function-Calling.git)
+   git clone https://github.com/digambar02/Gemini-Function-Calling.git
    ```
 2. Launch the app:
    ```bash
